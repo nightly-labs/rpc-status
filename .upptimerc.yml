@@ -1,31 +1,42 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: nightly-labs # Your GitHub organization or username, where this repository lives
+repo: rpc-status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+    - name: Nightly RPC
+      url: $RPC
+      method: POST
+      headers:
+          - "Content-Type: application/json"
+      body: '{"jsonrpc":"2.0","id":1,"method":"getBalance","params":["83astBRguLMdt2h5U1Tpdq5tjFoJ6noeGwaY3mDLVcri"]}'
+      assignees:
+          - matzayonc
+
+    - name: Solana Endpoint
+      url: https://api.mainnet-beta.solana.com
+      method: POST
+      headers:
+          - "Content-Type: application/json"
+      body: '{"jsonrpc":"2.0","id":1,"method":"getBalance","params":["83astBRguLMdt2h5U1Tpdq5tjFoJ6noeGwaY3mDLVcri"]}'
+      assignees:
+          - matzayonc
+
+    - name: Google
+      url: https://www.google.com
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
+    # Add your custom domain name, or remove the `cname` line if you don't have a domain
+    # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+    # cname: demo.upptime.js.org
+    # baseUrl: /your-repo-name
+    logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+    name: Nightly RPC
+    introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+    introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+    navbar:
+        - title: Status
+          href: /
+        - title: GitHub
+          href: https://github.com/$OWNER/$REPO
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
