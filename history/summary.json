@@ -5,16 +5,16 @@
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "nightly-rpc",
     "status": "up",
-    "uptime": "99.29%",
+    "uptime": "99.38%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.24%",
-    "uptimeMonth": "99.29%",
-    "uptimeYear": "99.29%",
-    "time": 376,
-    "timeDay": 424,
-    "timeWeek": 342,
-    "timeMonth": 376,
-    "timeYear": 376,
+    "uptimeMonth": "99.38%",
+    "uptimeYear": "99.38%",
+    "time": 373,
+    "timeDay": 323,
+    "timeWeek": 332,
+    "timeMonth": 373,
+    "timeYear": 373,
     "dailyMinutesDown": {
       "2022-05-25": 77
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 177,
+    "time": 178,
     "timeDay": 185,
-    "timeWeek": 181,
-    "timeMonth": 177,
-    "timeYear": 177,
+    "timeWeek": 189,
+    "timeMonth": 178,
+    "timeYear": 178,
     "dailyMinutesDown": {}
   },
   {
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 153,
-    "timeDay": 179,
-    "timeWeek": 157,
-    "timeMonth": 153,
-    "timeYear": 153,
+    "time": 154,
+    "timeDay": 165,
+    "timeWeek": 156,
+    "timeMonth": 154,
+    "timeYear": 154,
     "dailyMinutesDown": {}
   }
 ]
