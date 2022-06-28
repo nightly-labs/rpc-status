@@ -13,6 +13,15 @@ sites:
       assignees:
           - matzayonc
 
+    - name: Nightly RPC (Bare)
+      url: $BARE
+      method: POST
+      headers:
+          - "Content-Type: application/json"
+      body: '{"jsonrpc":"2.0","id":1,"method":"getBalance","params":["83astBRguLMdt2h5U1Tpdq5tjFoJ6noeGwaY3mDLVcri"]}'
+      assignees:
+          - matzayonc
+
     - name: Solana Endpoint
       url: https://api.mainnet-beta.solana.com
       method: POST
