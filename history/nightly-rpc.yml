@@ -1,7 +1,7 @@
 url: $RPC
-status: up
-code: 200
-responseTime: 253
-lastUpdated: 2022-07-14T11:52:58.252Z
+status: down
+code: 502
+responseTime: 504
+lastUpdated: 2022-07-14T14:03:47.766Z
 startTime: Thu May 19 2022 15:06:23 GMT+0200 (Central European Summer Time)
 generator: Upptime <https://github.com/upptime/upptime>
