@@ -1,7 +1,7 @@
 url: $ULA
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2022-07-29T09:54:25.307Z
+status: up
+code: 200
+responseTime: 169
+lastUpdated: 2022-07-29T10:11:27.915Z
 startTime: Tue Jun 28 2022 17:39:39 GMT+0200 (Central European Summer Time)
 generator: Upptime <https://github.com/upptime/upptime>
